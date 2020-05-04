@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--
+	Name: Kevin Van Schoyck
+	Date Created: 04/28/2020
+	Most recent revision: 04/28/2020
+-->
+
+<html lang="en">
+	<head>
+	<title>Home Page</title>
+	
+	<noscript>
+		<div class="alert alert-warning">
+			<center><strong>JavaScript Disabled!</strong> This site is best viewed with Javascript enabled.</center>
+		</div>
+	</noscript>	
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<style>
+			#entrees, td {
+				table-layout: fixed;
+				width: 100%;
+				text-align: center;
+				padding: 0px 50px 0px 50px;
+			}
+			
+			#drinks {
+				table-layout: fixed;
+				width: 35%;
+				table-align: centered;
+				padding: 5px 0px 5px 0px;
+			}
+			
+			th {
+				font-size: 1.3em;
+			}
+		</style>
+	</head>
+	<body>
+	
+	<header class="jumbotron">
+		<h1 class="font-weight-bold">Minns Bistro</h1>
+		<h5>We are opening a new location!</h5>
+		<h6>Stay tuned for updates!</h6>
+	</header>
+	
+	<nav>
+		<a class="btn badge-pill" href="index.html">&#8962;</a>
+		<a class="btn badge-pill" href="menu.html">Menu</a>
+		<a class="btn badge-pill" href="contact.html">Contact Us</a>
+		<div class="clear-float"></div>
+	</nav>
+	
+	<br />
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+				<table id="entrees">
+					<tr>
+						<th>Burger and Fries</th>
+					</tr>
+					<tr>
+						<td>An American Classic!<br />
+						Your choice - with or without cheese, Pickle, onion, tomato, and lettuce.
+						Served with our famous thick cut french fries.<br />
+						$7.95<br /></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md">
+				<table id="entrees">
+					<tr>
+						<th>Hot Dog and Chips</th>
+					</tr>
+					<tr>
+						<td>A Summer Classic!<br />
+						Your choice - white or wheat bun. Relish, mustard and ketchup. Served with our house-made chips.<br />
+						$7.95<br /></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md">
+				<table id="entrees">
+					<tr>
+						<th>Italian Sausage and Peppers</th>
+					</tr>
+					<tr>
+						<td>An All-Time Favorite!<br />
+						Your choice - mild or spicy Cole Slaw. Served with garlic mashers.<br />
+						$10.95<br /></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+				<table id="entrees">
+					<tr>
+						<th>Tenderloin Sandwich and Chips</th>
+					</tr>
+					<tr>
+						<td>An American Classic!<br />
+						Really Hits the Spot!<br />
+						Plain or Sesame Seed Bun. Pickle, onion, tomato and lettuce. Served with our house-made chips.<br />
+						$8.95</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md">
+				<table id="entrees">
+					<tr>
+						<th>House Salad</th>
+					</tr>
+					<tr>
+						<td>On the Lighter Side<br />
+						Your choice - with or without cheese. Iceberg lettuce, tomatoes, peppers and Thousand Island or Ranch Dessing. Served with a dinner roll.<br />
+						$6.95</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md">
+				<table id="entrees">
+					<tr>
+						<th>Brisket Sandwich and Fries</th>
+					</tr>
+					<tr>
+						<td>A Taste of Texas!<br />
+						Smoked Brisket on thick-cut Texas Toast with Cole Slaw. Served with our famous thick-cut french fries.<br />
+						$7.95</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+				<table id="drinks" align="center">
+					<tr>
+						<th colspan="2" style="text-align: center;">Beverages</th>
+					</tr>
+					<tr>
+						<td>Root Beer</td>
+						<td>$3.00</td>
+					</tr>
+					<tr>
+						<td>Bottled Water</td>
+						<td>$1.25</td>
+					</tr>
+					<tr>
+						<td>Lemonade</td>
+						<td>$1.00</td>
+					</tr>
+					<tr>
+						<td>Iced Tea</td>
+						<td>$1.25</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<br />
+	<br />	
+
+	<footer class="jumbotron">
+		<h6>Bistro Ln, Minneapolis, MN 55111</h6>
+		<h6>612-456-7890</h6>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	</body>
+</html>

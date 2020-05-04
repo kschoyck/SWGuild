@@ -1,0 +1,63 @@
+/**SITEWIDE**/
+/************/
+
+.clear-float {
+    clear:both;
+}
+
+header {
+	background-color: #734d26;
+	color: #4d3319;
+	font-size: 2.0em;
+	text-align: center;
+	padding: 5px;
+}
+
+footer {
+	background-color: #734d26;
+	color: #3a2613;
+	text-align: center;
+	padding: 5px;
+}
+
+body {
+	background-color: #c68c53;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+nav {
+	border-top: 3px solid #604020;
+	border-bottom: 3px solid #604020;
+}
+
+nav a {
+	display: block;
+	margin: 20px;
+	background-color: #604020;
+	color: black;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	padding: 5px;
+	border: thin solid black;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+}
+
+nav a:visited {
+	color: #e4c4ad;
+}
+
+nav a:hover {
+	background-color: #86592d;
+	color: #00000;
+	font-weight: bold;
+}
+
+nav a:active {
+	background-color: #996633;
+	color: #00000;
+	font-weight: bold;
+}

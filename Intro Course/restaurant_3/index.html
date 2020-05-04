@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+	Name: Kevin Van Schoyck
+	Date Created: 04/28/2020
+	Most recent revision: 04/28/2020
+-->
+
+<html lang="en">
+	<head>
+	<title>Home Page</title>
+	
+	<noscript>
+		<div class="alert alert-warning">
+			<center><strong>JavaScript Disabled!</strong> This site is best viewed with Javascript enabled.</center>
+		</div>
+	</noscript>	
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+	<style>
+		#carouselContent {
+			text-align: center;
+			color: #4d3319;
+			font-size: 2.0em;
+			text-align: center;
+			padding: 20px;
+		}
+	</style>
+	</head>
+	
+	<body>
+	
+	<header class="jumbotron">
+		<h1 class="font-weight-bold">Minns Bistro</h1>
+		<h5>We are opening a new location!</h5>
+		<h6>Stay tuned for updates!</h6>
+	</header>
+	
+	<div>
+		<nav>
+			<a class="btn badge-pill" href="index.html">&#8962;</a>
+			<a class="btn badge-pill" href="menu.html">Menu</a>
+			<a class="btn badge-pill" href="contact.html">Contact Us</a>
+			<div class="clear-float"></div>
+		</nav>
+	</div>
+	
+	<br />
+	
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<p = id="carouselContent">We're opening a new location!</p>
+			</div>
+			<div class="carousel-item">
+				<p = id="carouselContent">We're rolling out our seasonal menu, with special options for this season.</p>
+			</div>
+			<div class="carousel-item">
+				<p = id="carouselContent">The Drink of the Month is SG Special Brew.</p>
+			</div>
+		</div>
+	</div>
+	
+	<br />
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm">
+				<img src="banner.jpg" alt="This is a photo of a proper slice." class="img-fluid" />
+			</div>
+			
+			<div class="col-sm">
+				<p><h2>Welcome!</h2><br />
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+	
+	<br />
+	<br />
+	
+	<footer class="jumbotron">
+		<h6>Bistro Ln, Minneapolis, MN 55111</h6>
+		<h6>612-456-7890</h6>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<script>
+		function greeting(){
+			alert("This page is best viewed with JavaScript enabled.");
+		}
+	</script>
+	
+	</body>
+</html>

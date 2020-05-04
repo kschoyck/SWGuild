@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+	Name: Kevin Van Schoyck
+	Date Created: 04/28/2020
+	Most recent revision: 04/28/2020
+-->
+
+<html lang="en">
+	<head>
+	<title>Home Page</title>
+	<style>
+		.formtitle {
+			font-weight: bold;
+			font-size: 2em;
+			color: #604020;
+			text-align: center;
+		}
+		
+		form {
+			font-size ;
+		}
+		
+		label, fieldset{
+			font-size: 1.1em;
+		}
+
+		input[type=text] {
+			background-color: #f9f2ec;
+			border: 2px solid #0d1f2d;
+			width: 50%;
+			padding: 8px 8px;
+			margin: 12px 0;
+			box-sizing: border-box;
+			font-size: 1.1em;
+		}
+
+		fieldset {
+			background-color: #f9f2ec;
+			width: 100%;
+			padding: 12px 20px;
+			margin: 12px 0;
+			box-sizing:	border-box;
+		}
+
+		select, textarea {
+			margin: 12px 0;
+			font-size: 1em;
+		}
+
+		input[type=submit] {
+			font-size: 1.2em;
+			background-color: #4d3319;
+			color: #fef9ff;
+			padding: 4px 8px;
+		}
+
+		input[type=submit]:hover {
+			background-color: #86592d;
+			color: #fef9ff;
+		}
+
+		textarea {
+			width: 50%;
+			height: 200px;
+			padding: 10px;
+			margin: 12px 115px 12px 5px;
+			box-sizing: border-box;
+			border: 2px solid #0d1f2d;
+			border-radius: 3px;
+			background-color: #f9f2ec;
+			resize: none;
+		}
+	</style>
+	<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+	<header>
+		<h1>Minns Bistro</h1>
+	</header>
+	
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="menu.html">Menu</a>
+		<a href="contact.html">Contact Us</a>
+		<div class="clear-float"></div>
+	</nav>
+	
+	<p class="formtitle">Get In Touch With Us!<p>
+	
+	<center><form action="submit.html" method="POST">
+	
+		<label for="name" style="font-weight: bold;">Name</label>
+		<input type="text" name="name" required /><br />
+		
+		<label for="email" style="font-weight: bold;">Email</label>
+		<input type="text" name="email" required /><br />
+		
+		<label for="phone" style="font-weight: bold;">Phone</label>
+		<input type="text" name="phone" required /><br />
+	
+		<label for="order" style="font-weight: bold;">Reason for Inquiry</label>
+		<select name="order">
+			<option value="Catering">Catering</option>
+			<option value="Private Party">Private Party</option>
+			<option value="Feedback">Feedback</option>
+			<option value="Other">Other</option>
+		</select><br />
+	
+		Additional Information: 
+		<textarea name="info"></textarea><br />
+	
+		Have you been to this restaurant? 
+			<input type="radio" name="answer" value="YES" checked />Yes
+			<input type="radio" name="answer" value="NO" />No
+			<br />
+			<br />
+		
+		Best days to contact you: 
+			<input type="checkbox" name="myChoices" value="M" />M
+			<input type="checkbox" name="myChoices" value="T" />T
+			<input type="checkbox" name="myChoices" value="W" />W
+			<input type="checkbox" name="myChoices" value="Th" />Th
+			<input type="checkbox" name="myChoices" value="F" />F
+			<br />
+			<br />
+		
+		<input type="submit" name="submit" value="Send Request">
+		<br />
+		<br />
+	
+	</form></center>
+		
+	<footer>
+		<p>Bistro Ln, Minneapolis, MN 55111</p>
+		<p>612-456-7890</p>
+	</footer>
+</html>

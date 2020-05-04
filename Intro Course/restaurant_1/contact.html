@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+	Name: Kevin Van Schoyck
+	Date Created: 04/28/2020
+	Most recent revision: 04/28/2020
+-->
+
+<html lang="en">
+
+	<head>
+	<title>Contact Us!</title>
+	</head>
+	
+	<h1><center>Minnslice</center></h1>
+	<hr />
+	<a href="index.html">Home</a>
+	<a href="menu.html">Menu</a>
+	<a href="contact.html">Contact Us</a>
+	<hr />
+	
+	<center><form action="submit.html" method="POST">
+	
+		Name: <input type="text" name="name" /><br />
+		Email: <input type="text" name="email" /><br />
+		Phone: <input type="text" name="phone" /><br />
+	
+		Reason for Inquiry: 
+		<select name="order">
+			<option value="Catering">Catering</option>
+			<option value="Private Party">Private Party</option>
+			<option value="Feedback">Feedback</option>
+			<option value="Other">Other</option>
+		</select><br />
+	
+		Additional Information: 
+		<textarea name="info"></textarea><br />
+	
+		Have you been to this restaurant? 
+			<input type="radio" name="answer" value="YES" checked />Yes
+			<input type="radio" name="answer" value="NO" />No
+			<br />
+		
+		Best days to contact you: 
+			<input type="checkbox" name="myChoices" value="M" />M
+			<input type="checkbox" name="myChoices" value="T" />T
+			<input type="checkbox" name="myChoices" value="W" />W
+			<input type="checkbox" name="myChoices" value="Th" />Th
+			<input type="checkbox" name="myChoices" value="F" />F
+			<br />
+		
+		<input type="submit" name="submit" value="Send Request">
+	
+	</form></center>
+		
+	<hr />
+	
+	<center><p>Pizza Ln, Minneapolis, MN 55111</p></center>
+	<center><p>612-456-7890</p></center>
+
+</html>
